@@ -1,0 +1,17 @@
+{
+    "layout": "full",
+    "start": "today",
+    "sort": "release_date",
+    "sort_dir": "asc",
+    "included_marks": {
+        "completed": true,
+        "rewatching": true,
+        "watching": true,
+        "planning": true,
+        "considering": true,
+        "paused": false,
+        "dropped": false,
+        "skipping": false,
+        "unmarked": true
+    }
+}
