@@ -20,4 +20,16 @@ Route::prefix('v1/anime')->group(function () {
         Artisan::call('app:schedule');
         return Cache::get('anime_schedule');
     });
+
+
+    Route::get('/top', function () {
+
+        if (Cache::has('anime_top')) {
+            return Cache::get('anime_top');
+        }
+
+
+        Artisan::call('app:top-anime');
+        return Cache::get('anime_top');
+    });
 });
