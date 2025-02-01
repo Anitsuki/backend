@@ -2,7 +2,8 @@
 
 namespace App\Console\Commands\LiveChart;
 
-use App\seasons;
+use App\Enums\seasons;
+
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
